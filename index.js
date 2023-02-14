@@ -4,10 +4,10 @@ const inquirer = require("inquirer");
 const cTable = require("console.table");
 const Chalk = require("chalk");
 
-// Create an instance of inquirer's prompt module
+// inquirer's prompt module
 const prompt = inquirer.createPromptModule();
 
-// Connect to the database
+
 connection.connect((error) => {
     if (error) throw error;
 });

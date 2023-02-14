@@ -1,0 +1,33 @@
+{
+"name": "EmployeeTracker",
+  "version": "1.0.0",
+  "description": "Using Node.js, Inquirer, and MySQL to make a command-line app to manage employee database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Activator95/EmployeeTrace.git"
+  },
+  "keywords": [
+    "EmployeeTracker",
+    "inquirer",
+    "mysql",
+    "node"
+  ],
+  "author": "Justin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Activator95/EmployeeTracer/issues"
+  },
+  "homepage": "https://github.com/Activator95/EmployeeTracer/issues",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
+    "mysql": "^2.18.1",
+    "notenv": "^2.0.3"
+  }
+}
